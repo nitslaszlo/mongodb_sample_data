@@ -6,10 +6,10 @@ https://www.mongodb.com/try/download/community
 ## Install MongoDB Tools (Shell, Compass, Database Tools)
 https://www.mongodb.com/try/download/tools
 
+## MongoDB Atlas
+https://www.mongodb.com/atlas/database
 ## Dump from Atlas:
-https://www.mongodb.com/atlas/database<br>
-mongodump --uri mongodb+srv://username:password@sandbox.abc12.mongodb.net/<br>
-sample_training<br>
+mongodump --uri mongodb+srv://username:password@sandbox.abc12.mongodb.net/sample_training<br>
 where:<br>
 - cluster name: sandbox
 - database name: sample_training

@@ -1,7 +1,7 @@
 # MongoDB Atlas sample data dump and restore
 
 ## Dump from Atlas:
-mongodump --uri mongodb+srv://<username>:<password>@sandbox.abc12.mongodb.net/sample_training
+mongodump --uri mongodb+srv://username:password@sandbox.abc12.mongodb.net/sample_training
 
 ## Start mongod.exe on localhost
 if not exist "c:\data\" mkdir "c:\data"<br>

@@ -1,7 +1,15 @@
 # MongoDB Atlas sample data dump and restore
 
+## Install MongoDB Community Server
+https://www.mongodb.com/try/download/community
+
+## Install MongoDB Tools (Shell, Compass, Database Tools)
+https://www.mongodb.com/try/download/tools
+
 ## Dump from Atlas:
-mongodump --uri mongodb+srv://username:password@sandbox.abc12.mongodb.net/sample_training<br>
+https://www.mongodb.com/atlas/database<br>
+mongodump --uri mongodb+srv://username:password@sandbox.abc12.mongodb.net/<br>
+sample_training<br>
 where:<br>
 - cluster name: sandbox
 - database name: sample_training

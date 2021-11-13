@@ -22,3 +22,11 @@ if not exist "c:\data\db" mkdir "c:\data\db"<br>
 
 ## Local restore
 mongorestore --drop --db sample_training sample_training/
+
+## List databases
+mongo --quiet --eval  "printjson(db.adminCommand('listDatabases'))"
+
+## Links, sources
+- http://www.generatedata.com/
+- https://www.data.gov/
+- https://erelbi.github.io/mongodb_sample_data/
